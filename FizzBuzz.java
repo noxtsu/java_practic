@@ -17,5 +17,9 @@ public class FizzBuzz{
 		else if (i % 5 == 0) {
 			System.out.println("結果は…Buzz");
 		}
+		
+		else
+			System.out.println("結果は…" + i);
+		
 	}
 }
